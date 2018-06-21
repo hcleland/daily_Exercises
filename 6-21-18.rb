@@ -20,3 +20,5 @@ while index < 4
   index = index + 1
 end
 p sum
+
+puts "This is the test for making sure GitHub is working."
