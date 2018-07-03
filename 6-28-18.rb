@@ -11,14 +11,20 @@ items = [
 
 # p items[0][:id]
 
-new_items = []
-index = 0
+# new_items = []
+# index = 0
 
-items.map do |item|
-  new_items << items[index][:id]
-  index += 1
-end
+# items.map do |item|
+#   new_items << items[index][:id]
+#   index += 1
+# end
 
-p new_items
+# p new_items
+
+# p items = items.map {|item| item.values[0]}
+
+puts items.values[0]
+
+
 
 
